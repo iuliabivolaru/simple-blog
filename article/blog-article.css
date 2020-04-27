@@ -5,7 +5,8 @@ article {
     ". art art ."
     ". art art ."
     ". img img ."
-    ". fig fig .";
+    ". fig fig ."
+    ". ft ft .";
     justify-items: center;
 }
 
@@ -26,7 +27,8 @@ p {
     font-size: 18px;
 }
 
-footer {
+.article-footer {
+    grid-area: ft;
     display: flex;
     justify-content: center;
 }
@@ -41,4 +43,8 @@ footer {
 
 .fa-linkedin-square {
     margin: 10px;
+}
+
+@media (max-width: 1400px) {
+    
 }

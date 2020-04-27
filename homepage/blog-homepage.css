@@ -56,7 +56,8 @@ main {
     grid-area: main;
 }
 
-footer {
+.footer {
     grid-area: ft;
     justify-self: center;
+    align-self: center;
 }

@@ -5,7 +5,7 @@
 }
 
 .first-article-content {
-    margin-top: 30px;
+    align-self: center;
 }
 
 .article-image {
@@ -13,4 +13,18 @@
     height: 240px;
     border-radius: 3px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 1400px) {
+    .article-image {
+        justify-self: center;
+        align-self: center;
+        width: 200px;
+        height: 120px;
+        border-radius: 3px;
+    }
+
+    .first-article {
+        grid-template-columns: 230px 300px;
+    }
 }
