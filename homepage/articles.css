@@ -1,0 +1,16 @@
+.first-article {
+    display: grid;
+    grid-template-columns: 400px 500px;
+    margin-bottom: 20px;
+}
+
+.first-article-content {
+    margin-top: 30px;
+}
+
+.article-image {
+    width: 360px;
+    height: 240px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

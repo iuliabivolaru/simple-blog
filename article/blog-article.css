@@ -1,0 +1,44 @@
+article {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    ". art art ."
+    ". art art ."
+    ". img img ."
+    ". fig fig .";
+    justify-items: center;
+}
+
+.content {
+    grid-area: art;
+}
+
+img {
+    grid-area: img;
+}
+
+figcaption {
+    grid-area: fig;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-facebook-square {
+    margin: 10px;
+}
+
+.fa-twitter-square {
+    margin: 10px;
+}
+
+.fa-linkedin-square {
+    margin: 10px;
+}
