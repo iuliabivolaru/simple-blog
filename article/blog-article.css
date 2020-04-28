@@ -1,4 +1,4 @@
-article {
+.article {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: 
@@ -14,8 +14,12 @@ article {
     grid-area: art;
 }
 
-img {
+.article-img {
     grid-area: img;
+    width: 360px;
+    height: 240px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 figcaption {
@@ -43,8 +47,4 @@ p {
 
 .fa-linkedin-square {
     margin: 10px;
-}
-
-@media (max-width: 1400px) {
-    
 }
